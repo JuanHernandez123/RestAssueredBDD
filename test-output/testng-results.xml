@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2693" started-at="2021-10-19T18:31:44 COT" finished-at="2021-10-19T18:31:47 COT">
+  <suite name="Default suite" duration-ms="2565" started-at="2021-10-25T21:57:14 COT" finished-at="2021-10-25T21:57:17 COT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2693" started-at="2021-10-19T18:31:44 COT" finished-at="2021-10-19T18:31:47 COT">
-      <class name="APITestCases.TC001_GET_Request">
-        <test-method status="PASS" signature="getAnUser()[pri:0, instance:APITestCases.TC001_GET_Request@2a556333]" name="getAnUser" duration-ms="2661" started-at="2021-10-19T18:31:44 COT" finished-at="2021-10-19T18:31:47 COT">
+    <test name="Default test" duration-ms="2565" started-at="2021-10-25T21:57:14 COT" finished-at="2021-10-25T21:57:17 COT">
+      <class name="APITestCases.TC003_PUT_Request">
+        <test-method status="PASS" signature="putData()[pri:0, instance:APITestCases.TC003_PUT_Request@7113b13f]" name="putData" is-config="true" duration-ms="327" started-at="2021-10-25T21:57:14 COT" finished-at="2021-10-25T21:57:14 COT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAnUser -->
-      </class> <!-- APITestCases.TC001_GET_Request -->
+        </test-method> <!-- putData -->
+        <test-method status="PASS" signature="testPUT()[pri:0, instance:APITestCases.TC003_PUT_Request@7113b13f]" name="testPUT" duration-ms="2195" started-at="2021-10-25T21:57:15 COT" finished-at="2021-10-25T21:57:17 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUT -->
+      </class> <!-- APITestCases.TC003_PUT_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
