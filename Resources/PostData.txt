@@ -1,0 +1,7 @@
+<CUSTOMER xmlns:xlink="http://www.w3.org/1999/xlink">
+<ID>15</ID>
+<FIRSTNAME>Bill</FIRSTNAME>
+<LASTNAME>Clancy</LASTNAME>
+<STREET>319 Upland Pl.</STREET>
+<CITY>Seattle</CITY>
+</CUSTOMER>

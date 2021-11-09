@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4693" started-at="2021-10-26T22:27:39 COT" finished-at="2021-10-26T22:27:44 COT">
+  <suite name="Default suite" duration-ms="3479" started-at="2021-11-09T16:42:10 COT" finished-at="2021-11-09T16:42:14 COT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4693" started-at="2021-10-26T22:27:39 COT" finished-at="2021-10-26T22:27:44 COT">
-      <class name="APITestCases.Demo_JSON_Validations">
-        <test-method status="PASS" signature="statusValidation()[pri:1, instance:APITestCases.Demo_JSON_Validations@4b553d26]" name="statusValidation" duration-ms="2054" started-at="2021-10-26T22:27:39 COT" finished-at="2021-10-26T22:27:41 COT">
+    <test name="Default test" duration-ms="3479" started-at="2021-11-09T16:42:10 COT" finished-at="2021-11-09T16:42:14 COT">
+      <class name="APITestCases.Demo13_RequestAndResponseSpecBuilder">
+        <test-method status="PASS" signature="setup()[pri:0, instance:APITestCases.Demo13_RequestAndResponseSpecBuilder@60285225]" name="setup" is-config="true" duration-ms="530" started-at="2021-11-09T16:42:10 COT" finished-at="2021-11-09T16:42:11 COT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statusValidation -->
-        <test-method status="PASS" signature="getLogResponseAndSingleContent()[pri:2, instance:APITestCases.Demo_JSON_Validations@4b553d26]" name="getLogResponseAndSingleContent" duration-ms="963" started-at="2021-10-26T22:27:41 COT" finished-at="2021-10-26T22:27:42 COT">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_albums()[pri:1, instance:APITestCases.Demo13_RequestAndResponseSpecBuilder@60285225]" name="test_albums" duration-ms="1684" started-at="2021-11-09T16:42:11 COT" finished-at="2021-11-09T16:42:12 COT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLogResponseAndSingleContent -->
-        <test-method status="PASS" signature="testMultipleContent()[pri:3, instance:APITestCases.Demo_JSON_Validations@4b553d26]" name="testMultipleContent" duration-ms="875" started-at="2021-10-26T22:27:42 COT" finished-at="2021-10-26T22:27:43 COT">
+        </test-method> <!-- test_albums -->
+        <test-method status="PASS" signature="test_todos()[pri:2, instance:APITestCases.Demo13_RequestAndResponseSpecBuilder@60285225]" name="test_todos" duration-ms="701" started-at="2021-11-09T16:42:12 COT" finished-at="2021-11-09T16:42:13 COT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultipleContent -->
-        <test-method status="PASS" signature="setParamsAndHeaders()[pri:4, instance:APITestCases.Demo_JSON_Validations@4b553d26]" name="setParamsAndHeaders" duration-ms="757" started-at="2021-10-26T22:27:43 COT" finished-at="2021-10-26T22:27:44 COT">
+        </test-method> <!-- test_todos -->
+        <test-method status="PASS" signature="test_posts()[pri:3, instance:APITestCases.Demo13_RequestAndResponseSpecBuilder@60285225]" name="test_posts" duration-ms="510" started-at="2021-11-09T16:42:13 COT" finished-at="2021-11-09T16:42:14 COT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setParamsAndHeaders -->
-      </class> <!-- APITestCases.Demo_JSON_Validations -->
+        </test-method> <!-- test_posts -->
+      </class> <!-- APITestCases.Demo13_RequestAndResponseSpecBuilder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

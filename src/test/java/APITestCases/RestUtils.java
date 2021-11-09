@@ -1,5 +1,9 @@
 package APITestCases;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class RestUtils {
@@ -48,5 +52,15 @@ public class RestUtils {
 	public static String getJob() {
 		String generatedString = RandomStringUtils.randomNumeric(2);
 		return ("Analist" + generatedString);
+	}
+	
+	/**
+	 * This function is used for get the string from txt format file
+	 * @param path
+	 * @return
+	 * @throws IOException
+	 */
+	public static String generateStringFromResource(String path) throws IOException {
+		return new String(Files.readAllBytes(Paths.get(path)));
 	}
 }
