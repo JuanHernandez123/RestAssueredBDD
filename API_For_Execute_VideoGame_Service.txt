@@ -1,0 +1,16 @@
+Steps
+-----------------
+Download gradle
+	https://gradle.org/releases/
+	Download binary-Only
+Modify the path varible environment (add: C:\gradle-7.3\bin)
+
+Download Video Game API
+https://github.com/james-willett/VideoGameDB
+Download the zip file
+
+How to run the API service?
+Go to location file, open the CMD and execute gradlew bootRun
+
+when the above execution is completed, got to http://localhost:8080/swagger-ui/index.html#/  
+to consult how use the API service
